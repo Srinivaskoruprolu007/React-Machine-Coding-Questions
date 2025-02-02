@@ -1,6 +1,7 @@
 import Counter from "./components/Easy/Counter";
 import Accordion from "./components/Easy/Accordion";
 import ContactForm from "./components/Easy/ContactForm";
+import HolyGrail from "./components/Easy/HolyGrail";
 import { Toaster } from "react-hot-toast";
 
 const items = [
@@ -20,10 +21,11 @@ const items = [
 const App = () => {
   return (
     <div>
-      <Counter initialCount={10} />
+      {/* <Counter initialCount={10} />
       <ContactForm />
       <Accordion items={items} />
-      <Toaster />
+      <Toaster /> */}
+      <HolyGrail />
     </div>
   );
 };
