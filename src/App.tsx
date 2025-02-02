@@ -1,5 +1,7 @@
 import Counter from "./components/Easy/Counter";
 import Accordion from "./components/Easy/Accordion";
+import ContactForm from "./components/Easy/ContactForm";
+import { Toaster } from "react-hot-toast";
 
 const items = [
   {
@@ -19,7 +21,9 @@ const App = () => {
   return (
     <div>
       <Counter initialCount={10} />
+      <ContactForm />
       <Accordion items={items} />
+      <Toaster />
     </div>
   );
 };
