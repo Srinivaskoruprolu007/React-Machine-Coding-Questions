@@ -3,6 +3,7 @@ import Accordion from "./components/Easy/Accordion";
 import ContactForm from "./components/Easy/ContactForm";
 import HolyGrail from "./components/Easy/HolyGrail";
 import { Toaster } from "react-hot-toast";
+import ProgressBarDemo from "./components/Medium/ProgressBarDemo";
 
 const items = [
   {
@@ -25,7 +26,8 @@ const App = () => {
       <ContactForm />
       <Accordion items={items} />
       <Toaster /> */}
-      <HolyGrail />
+      {/* <HolyGrail /> */}
+      <ProgressBarDemo />
     </div>
   );
 };
