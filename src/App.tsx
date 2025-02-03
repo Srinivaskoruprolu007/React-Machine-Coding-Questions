@@ -4,6 +4,7 @@ import ContactForm from "./components/Easy/ContactForm";
 import HolyGrail from "./components/Easy/HolyGrail";
 import { Toaster } from "react-hot-toast";
 import ProgressBarDemo from "./components/Medium/ProgressBarDemo";
+import MortgageCalculator from "./components/Medium/MortgageCalculator";
 
 const items = [
   {
@@ -27,7 +28,8 @@ const App = () => {
       <Accordion items={items} />
       <Toaster /> */}
       {/* <HolyGrail /> */}
-      <ProgressBarDemo />
+      {/* <ProgressBarDemo /> */}
+      <MortgageCalculator />
     </div>
   );
 };
